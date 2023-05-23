@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            CV-form
+        </title>
+        <link rel="stylesheet" href="stylesheetcv.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <body>
+        <h1>Если не это твой шанс, то что?</h1>
+        <section class="overlay1">
+            <h2> О нас...</h2>
+                <p>Мы - агентство Mriya и наша миссия заключается в том, чтобы поднять наивысший флаг вашего бренда на пике успеха! <br> Наша команда профессионалов стремится создать рекламную кампанию,<br> которая будет не просто информировать, но и удивлять и впечатлять потребителей. Мы не боимся сложных проектов, <br> поэтому даже самые смелые задачи решаются легко и без проблем при помощи нашей незаурядной креативности и опыта. <br> Мы не просто создадим дизайн и рекламный контент, мы поможем вашему бренду сделать громкий шаг вперед и заслужить уважение и любовь аудитории. <br> Наша компания готова взять на себя организацию любого масштаба мероприятий и повышение узнаваемости вашей марки в любых отраслях. <br> Мы создаем не просто рекламу, мы создаем впечатления, которые останутся в памяти надолго. <br> Доверившись нам, вы получаете настоящий партнерский подход и энергичную команду, которая не остановится ни перед чем, чтобы достичь цели!</p>
+                    <img src="https://avatars.mds.yandex.net/i?id=c251645a6918364e9d6f6a28117caa9ffd728b3c-4233516-images-thumbs&n=13"
+        </section>
+        <section>
+            <h2>Что мы предлагеам тебе?</h2>
+            <img src="https://cdn-icons-png.flaticon.com/512/3439/3439328.png" class='money'> 
+            <p>Заработную плату от 45000 рублей</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/35/35920.png" class='paper'> 
+            <p>Полное трудоустройство</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/1769/1769041.png" class="people">
+            <p>Дружелюбную команду, где все готовы помочь друг другу, ради общего дела</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3487/3487097.png" class="comp">
+            <p> Доступ к внутренней библиотеке знаний</p>
+            <h2>Если ты хочешь быть частью нашей команды, заполни форму ниже.</h2>
+        </section>
+        
+        <section class="overlay2">
+            <form method="post">
+            <label for="name" pattren="[a-zA-Zа-яА-Я]">Имя</label> 
+            <input type="text" name="fname" id="name" required>
+            <label for="lastname"pattren="[a-zA-Zа-яА-Я]">Фамилия</label> 
+            <input type="text" name="lname" id="lastname" required>
+            <br> <label for="birth">Дата рождения</label> 
+            <input type="date" name="birth" id="birth" required min="1900-01-01" max="2023-05-23" value="2023-05-23">
+            <br>
+            <br>
+            <label for="education">Образование</label> 
+            <select id="education" name="education">
+                <option value="Начальное образованние">Начальное образование</option>
+                <option value="Незаконченное среднее образование">Незаконченное среднее образование</option>
+                <option value="Среднее образование">Среднее образование</option>
+                <option value="Незаконченное высшее образованние">Незаконченное высшее образованние</option>
+                <option value="Высшее образованние">Высшее образованние</option>
+            </select>
+            <lable for="university">Название учебного заведения</lable>
+            <input type="text" id="university" name="university">
+            <br>
+            <label for="leveng">Ваш уровень английского языка</label>
+            <br>
+            <span><img src="https://www.pngmart.com/files/1/Sad-Emoji-PNG-Transparent-Image.png" class="smile"></span>
+            <input type="range" id="leveng" name="englishlevel" min="0" max="7" step="1">
+            <span> <img src="https://www.pngplay.com/wp-content/uploads/6/Emoji-Transparent-Background.png" class="smile"> </span>
+            <br>
+            <span>Укажите, какие экзамены вы сдавали:</span>
+            <br>
+            <input type="checkbox"id="TOEFL" name="exams" value="TOEFL">
+            <label for="TOEFL">TOEFL</label>
+            <input type="checkbox"id="IELTS" name="exams" value="IELTS">
+            <label for="IELTS">IELTS</label>
+            <input type="checkbox"id="PET" name="exams" value="PET">
+            <label for="PET">PET</label>
+            <br>
+            <input type="checkbox"id="FCE" name="exams" value="FCE">
+            <label for="FCE">FCE</label>
+            <input type="checkbox"id="CAE" name="exams" value="CAE">
+            <label for="CAE">CAE</label>
+            <input type="checkbox"id="CPE" name="exams" value="CPE">
+            <label for="CPE">CPE</label>
+            <br>
+            <br>
+            <br>
+            <label for="qual">Назовите 5 положительных качеств, которыми вы владеете.</label><br>
+            <textarea id="qual" name="qual" rows="10" cols="50" minlength="10" maxlength="100">...</textarea> <br>
+            <label for="nqual">Назовите 3 негативные качества, которыми вы владеете.</label><br>
+            <textarea id="nqual" name="nqual" rows="10" cols="50" minlength="10" maxlength="100">...</textarea><br>
+            <label for="aby">Поле для дополнительной информации о себе.</label><br>
+            <textarea id="aby" name="aboutyourself" rows="10" cols="50" minlength="10" maxlength="250">...</textarea><br>
+            <br>
+            <br>
+        
+            <input type="submit" value="Отправить">
+        
+        </section>
+            
+            
+        </form>
+    </body>
+    
+
+
+
+
+    
+</html>

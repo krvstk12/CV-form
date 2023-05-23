@@ -1,0 +1,31 @@
+body {
+    background: #B0C4DE; 
+    font-family: Space Mono, ;
+    align-self: center;
+    
+}
+h1 {
+    font-family: Pacifico, cursive;
+    color:#FFFFF0;
+
+}
+.overlay1{
+    background: #FFFFF0; 
+    color: #708090
+    
+}
+.money {
+    width: 30px;
+}
+.paper {
+    width: 30px;
+}
+.people {
+    width: 30px;
+}
+.comp {
+    width: 30px;
+}
+.smile {
+    width: 30px; 
+}
